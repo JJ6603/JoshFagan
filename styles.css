@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+* {
+    background-color: #2a363c;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: 0.1em;
+    padding: 2%;
+    padding-left: 1.5pc;
+    padding-top: 10%;
+    margin-top: 5%;
+    color: #ea4a60;
+    display: block;
+}
+
+h1{
+    font-size: 60px;
+}
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    padding: 1.5pc;
+    padding-top: 0px;
+}
+/* Nav Bar */
+
+li{
+    list-style-type: none; 
+    display: inline-block;
+}
+
+nav a {
+    font-size: 20px;
+    padding: 5px;
+    text-decoration: none;
+    float: left;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Rubik', sans-serif;
+    display: block;
+}
+
+header nav{
+    display: inline-block;
+}
+
+a.active {
+    color: #ea4a60;
+    text-decoration: underline;
+}
+
+/* Header */
+.intro {
+    padding-bottom: 5%;
+    padding-right: 2%;
+}
+
+
+/* Home */
+h1.intro {
+    margin-top: 10%;
+    padding-top: 23%;
+    width: 100%;
+    margin-left: 0%;
+    padding-bottom: 20%;
+    color: #ea4a60;
+    font-style: oblique;
+    background-image:url(images/Home_Header.jpg);
+    background-size:cover;
+}
+
+p.intro {
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+
+/* My Work */
+
+h1.MyWorks{
+    margin-top: 10%;
+    padding-top: 23%;
+    width: 100%;
+    margin-left: 0%;
+    padding-bottom: 20%;
+    background-image:url(images/Works_Header.jpg);
+    background-size:cover;
+    text-align: center;
+
+}
+
+section.middle{
+    background-color: #ea4a60;
+}
+
+.works {
+    background-color: #ea4a60;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+}
+div.works {
+    background-color: #ea4a60;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    padding-bottom: 0px;
+}
+
+h2.works {
+    text-align: center;
+    color: #2a363c;
+    padding: 1pc;
+
+}
+
+h3.works {
+    color: #2a363c;
+    font-size: 20px;
+    padding-left: 1pc;
+
+}
+
+h3.works#middle {
+    text-align: right;
+    padding-right: 1pc;
+}
+
+p.works {
+    padding-left: 1.5pc;
+    padding-bottom: 1pc;
+    padding-right: 2pc;
+}
+
+p.works#middletxt {
+    text-align: right;
+    padding-right: 1.5pc;
+}
+
+p.works#bottom {
+    padding-bottom: 4pc;
+}
+
+p.works#bottom a.hyperlink {
+    background-color: #ea4a60;
+    color: #2a363c;
+}
+
+/* about me */
+
+p.about {
+    padding-right: 2pc;
+    padding-bottom: 3pc;
+}
+
+/* footer */
+footer {
+    text-align: center;
+}
+p.footer{
+    padding-bottom: 5px;
+}
+
+a.footer {
+    display: inline;
+    padding: 1%;
+    margin-left: 2%;
+    font-family: 'Rubik', sans-serif;
+}
+
+p.social {
+    padding: 8%;
+    padding-bottom: 20%;
+    font-size: 26px;
+}
+p.social a{
+    color: white;
+}
+
+p.social a:hover{
+    color: #ea4a60;
+}
+
+#linkdin {
+    text-align: right;
+}
+
+h2.contactme {
+    padding: 2%;
+    padding-bottom: 5%;
+    color: #2a363c;
+    text-align: center;
+}
+
+.contactme{
+    background-color: #ea4a60;
+}
+form{
+    padding-bottom: 5%;
+}
+input {
+    background-color: white;
+    padding: 1%;
+    margin-bottom: 3%;
+    margin-left: 10%;
+    width: 80%;
+    border: none;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+input[type=submit] {
+    width: 30%;
+    align-self: center;
+    display: block;
+    margin:auto;
+    margin-bottom: 10px;
+
+}
+
+textarea{
+    background-color: white;
+    padding: 1%;
+    margin-bottom: 3%;
+    margin-left: 10%;
+    width: 80%;
+    border: none;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p#disclaimer{
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+/* Media */
+img {
+    margin-left: 5%;
+    margin-right: 5%;
+    border-bottom: 1px solid white;}
+
+img.works{
+    width: 90%;
+    height: 200px;
+    padding-bottom: 20px;
+    background-color: #2a363c;
+    object-fit: fill;
+}
+
+img#Profile {
+    border: none;
+    float: right;
+    margin-right: 8%;
+
+}
+
+img#FuturesX {
+    height: 300px;
+}
+
+img#App1 {
+    border-bottom: none;
+}
+
+
+img#logo{
+    width: 30%;
+    padding: 0px;
+    border: none;
+    margin: 2%;
+    margin-bottom: 0px;
+    display: inline-block;
+}
+
+iframe {
+    width: 90%;
+    height: 200px;
+    object-fit: fill;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 5%;
+    border: none;
+    border-bottom: 1px solid white;
+
+}
+
+img.transition{
+    width: 100%;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
